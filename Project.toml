@@ -1,0 +1,16 @@
+name = "LCToCSS"
+uuid = "029901da-9845-4d68-bbdc-09d39ef8535d"
+version = "0.1.0"
+authors = ["Mingyuan Wang"]
+
+[workspace]
+projects = ["test"]
+
+[deps]
+QuantumClifford = "0525e862-1e90-11e9-3e4d-1b39d7109de1"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+[compat]
+QuantumClifford = "0.11.4"
+SparseArrays = "1.12.0"
+julia = "1.12"
