@@ -16,6 +16,7 @@ Use Julia 1.12 or later. Install from GitHub:
 
 ```julia
 using Pkg
+Pkg.add("QuantumClifford")
 Pkg.add(url="https://github.com/Mingyuan1231/LCtoCSS.jl")
 ```
 
